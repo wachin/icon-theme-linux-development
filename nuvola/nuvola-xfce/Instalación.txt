@@ -1,0 +1,5 @@
+
+estar en la terminal en este directorio y poner:
+
+sudo cp -r nuvola-xfce-dark /usr/share/icons/ 
+sudo cp -r nuvola-xfce-light /usr/share/icons/ 

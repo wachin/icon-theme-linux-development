@@ -1,0 +1,870 @@
+2005-12-06  Christian Schaller <uraeus@gnome.org>
+
+	* Switch Gorilla to icon naming for stock icons
+	* Add more icons to Nuvola from David Vignoni
+	* Add volume icons from Josselin Mouette
+	* Fix executable name in Nuvola
+	* Update version to 0.9.0
+	* Update Amaranth and Wasp for better coverage of device icons
+
+2005-09-01  Pawan Chitrakar  <pchitrakar@gmail.com>
+
+	* configure.in: Added ne in ALL_LINGUAS
+
+2005-08-13  Ilkka Tuohela  <hile@iki.fi>
+
+	* configure.in: Added "fi" to ALL_LINGUAS
+	
+2005-08-09  Maxim Dziumanenko <mvd@mylinux.ua>
+
+	* configure.in: Added 'uk' to ALL_LINGUAS.
+
+2005-07-11  Christian Schaller <uraeus@gnome.org>
+
+	* Nuvola: rename stock icons to follow icon naming spec
+	
+2005-06-10  Ignacio Casal Quinteiro  <nacho.resa@gmail.com>
+
+	* configure.in: Added 'gl' to ALL_LINGUAS.
+
+2005-04-05  Alexander Shopov  <ash@contact.bg>
+
+	* configure.in: Added "bg" (Bulgarian) to ALL_LINGUAS
+
+2005-04-01  Steve Murphy  <murf@e-tools.com>
+
+	* configure.in: Added "rw" to ALL_LINGUAS.
+
+2005-04-23 Christian Schaller <uraeus@gnome.org>
+
+	* add a host of new icons for Nuvola from David
+
+2005-02-11 Christian Schaller <uraeu@gnome.org>
+
+	* update spec file for a non-engines world
+	* make 0.8.1 release
+
+2004-12-22  Thomas Wood  <thos@gnome.org>
+
+	* Makefile.am:
+	* configure.in:
+	Depend on new gtk-engines
+
+	* Industrial/: Remove Industrial engine as it is in gtk-engines now
+	* Smooth/.cvsignore: Removed (no longer needed)
+
+2004-11-27  Christian Schaller <uraeus@gnome.org>
+
+	* Fix make-dist, we now depend on Automake 1.9 
+	  (think we are first in GNOME CVS for this :)
+
+2004-11-20  Christian Schaller <uraeus@gnome.org>
+
+	* Remove Smooth engine as it is in gnome-themes now
+
+2004-09-27  Jakub Steiner <jimmac@ximian.com>
+	
+	* Industrial/industrial_style.c:
+	* Industrial/gtk-2.0/gtkrc.in: sync with clahey
+	
+2004-09-02  Dmitry G. Mastrukov  <dmitry@taurussoft.org>
+
+	* configure.in: Added Russian to ALL_LINGUAS.
+
+2004-08-31  Christian Schaller <Uraeus@gnome.org>
+
+	* configure.in: Update version to 0.8
+
+2004-08-11  Adam Weinberger  <adamw@gnome.org>
+
+	* configure.in: Added en_CA to ALL_LINGUAS.
+
+2004-07-28  Gustavo Maciel Dias Vieira  <gustavo@sagui.org>
+
+	* configure.in: Added pt_BR to ALL_LINGUAS.
+
+2004-06-18  Jakub Steiner <jimmac@ximian.com>
+
+	* gnome-fs-directory-visiting: the open folder state
+
+2004-06-17  Christian Schaller <christian@fluendo.com>
+
+	* Added python mimetype icon to Lush from Nicolas Évrard
+
+2004-06-10  Jakub Steiner <jimmac@ximian.com>
+
+	* gnome-fs-executable -> gnome-mime-x-application-executable:
+	  symlinking accross directories seems to be a pain. However
+	  symlinking to nonexistant files hardly the solution ;)
+	
+2004-06-10  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/icons/scalable/filesystems/Makefile.am:
+	  fix makefile after Christian ;)
+
+2004-06-10  Jakub Steiner <jimmac@ximian.com>
+
+	* my-computer.svg: remove the duplicate
+
+2004-06-09  Christian Schaller <christian@fluendo.com>
+
+	* fix emblem placements
+	* fix makefiles after Jakub :)
+	* Add gnome-fs-client to Gorilla
+
+2004-06-09  Jakub Steiner <jimmac@ximian.com>
+
+	* stock_dialog_warning.svg: Do not embed font. Fixes bug #140719
+
+2004-06-09  Jakub Steiner <jimmac@ximian.com>
+
+	* (Gorilla) .. devices/*: proper scaling
+
+2004-06-09  Jakub Steiner <jimmac@ximian.com>
+
+	* (Gorilla) .. devices/gnome-fs-floppy.svg: 3D should suit it
+
+2004-06-09  Jakub Steiner <jimmac@ximian.com>
+
+	* (Gorilla) .. apps/Makefile.am:
+	* (Gorilla) .. filesystems/Makefile.am:
+	* (Gorilla) .. mimetypes/Makefile.am: symlink fixes
+
+2004-06-08  Jakub Steiner <jimmac@ximian.com>
+
+	* my-computer.svg
+	* gnome-terminal.svg: scale fixups
+
+	* accessibility-directory.svg
+	* gnome-games.svg: new panel icons
+
+2004-05-05 Christian Schaller <Uraeus@gnome.org>
+
+	* Fixing small issues in Nuvola
+	* Adding OpenOffice icons to Nuvola apps directory
+	* Give printermanager a Nuvola icon
+	* Add sodipodi/inkscape icon to theme
+	* Fixed translations
+
+2004-05-03 Christian Schaller <Uraeus@gnome.org>
+
+	* Tons of bugfixes from Josselin Mouette <joss@debian.org>
+	* Firefox icon from Tobias Jakobs
+	* Suse symlinks from James Ogley
+	* Disable translations, they currently break the build
+
+2004-04-19 Christian Schaller <Uraeus@gnome.org>
+	
+	* Released 0.7
+
+2004-04-18 David Vignoni <davigno@cvs.gnome.org>
+
+	* Nuvola/icons/scalable/stock/: Updated 15 icons.
+	* Nuvola/icons/scalable/stock/: Added 1 icons.
+	
+
+2004-04-10  Gareth Owen  <gowen72@yahoo.com>
+
+	* configure.in: Added en_GB to ALL_LINGUAS
+
+2004-03-31 Christian Schaller <Uraues@gnome.org>
+
+	* Added two more icons to Amaranth
+
+2004-03-30 Christian Schaller <Uraeus@gnome.org>
+
+	* Added 5 icons to Amaranth
+	* Added new Nuvola icons to Makefiles
+
+2004-03-30 David Vignoni  <davigno@cvs.gnome.org>
+
+	* Nuvola/icons/scalable/apps/: Updated 16 icons.
+	* Nuvola/icons/scalable/apps/: Added 3 icons.
+	* Nuvola/icons/scalable/devices/: Updated 10 icons.
+	* Nuvola/icons/scalable/devices/: Added 1 icon.
+	* Nuvola/icons/scalable/emblems/: Updated 6 icons.
+	* Nuvola/icons/scalable/filesystems/: Updated 19 icons.
+	* Nuvola/icons/scalable/mimetypes/: Updated 5 icons.
+	* Nuvola/icons/scalable/mimetypes/: Added 1 icon.	
+
+2004-03-29 David Vignoni <davigno@cvs.gnome.org>
+
+	* Nuvola/icons/scalable/mimetypes/: Updated 30 icons.
+	* Nuvola/icons/scalable/mimetypes/: Added 22 icons.
+
+2004-03-27  Christian Schaller <Uraeus@gnome.org>
+
+	* Add patch to Industrial from Morten Welinder
+	  Fixes issue for Gnumeric and probably others
+
+2004-03-21  Christian Schaller <Uraeus@gnome.org>
+
+	* Some small changes to Nuvola to make it more 2.6 friendly
+	* New Amaranth trashcan from Yishay Vadai
+
+2004-03-06  Laurent Dhima  <laurenti@alblinux.net>
+
+	* configure.in: Added "sq" to ALL_LINGUAS.
+ 
+2004-03-04  Guntupalli Karunakar  <karunakar@freedomink.org>
+
+        * configure.in: Added "pa" (Punjabi) to ALL_LINGUAS.
+
+2004-02-27  Remi Cohen-Scali  <rcoscali@cvs.gnome.org>
+
+	* configure.in: Added an 's' to GETTEXT_PACKAGE
+	in order to obtain gnome-themes-extras (instead
+	of gnome-themes-extra). 
+	fix Bug# 135563
+
+2004-02-09  Robert Sedak  <robert.sedak@sk.htnet.hr>
+
+        * configure.in: Added "hr" (Croatian) to ALL_LINGUAS.
+
+2004-02-03  Žygimantas Beručka  <uid0@tuxfamily.org>
+
+	* configure.in: Added "lt" (Lithuanian) to ALL_LINGUAS.
+
+2004-01-29  Christian Schaller <Uraeus@gnome.org>
+
+	* Updated smooth to compile with Gtk2.3
+	* New improved Wasp logout icon from Caleb Moore
+
+2004-01-11  Alessio Frusciante  <algol@firenze.linux.it>
+
+	* configure.in: Added "it" (Italian) to ALL_LINGUAS.
+
+2004-11-01 Christian Schaller <Uraeus@gnome.org>
+
+	* Change Amaranth Floppy and cdrom icons
+	* Add new webbrowser icon to Wasp
+	* Add new desktop emblem to Wasp
+
+2004-11-01 Christian Schaller <Uraeus@gnome.org>
+
+	* Updated Lush/Galaxy theme to latest version
+	* New Wasp theme without pixmaps
+	* Adding gaim Wasp icons
+	* Fixed bug 116180 	 (gorilla iconrc)
+	* Fixed bug 109746 (Galaxy metacity bug)
+	* Fixed bug 130176 (Missing Amaranth icons)
+	* Fixed bug 130301 (Bad symlinks)
+	* Make 0.6 release
+
+2003-12-16 Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>
+
+	* sk.po: Added Slovak translation.
+
+2003-12-14 Christian Schaller <Uraeus@gnome.org>
+
+	* Amaranth fix from Andrew Johnson
+
+2003-12-07 Christian Schaller <Uraeus@gnome.org>
+
+ 	* Added goto first and last to Nuvola
+	* Added gaim send-message icon to Gaim
+
+2003-12-06 Christian Schaller <Uraeus@gnome.org>
+ 
+	* Made 0.5 release
+
+2003-12-05 Christian Schaller <Uraeus@gnome.org>
+
+	* New icons from David Vignoni for Nuvola, RH menu now complete
+
+2003-12-01 Christian Schaller <Uraeus@gnome.org>
+
+	* First day in the calendar, a bunch of new Nuvola icons!
+
+2003-11-25 Christian Schaller <Uraeus@gnome.org>
+
+	* Add many new icons to Wasp
+
+2003-11-16 Christian Schaller <Uraeus@gnome.org>
+
+	* Update Smooth engine
+	* Update version number
+	* Replace Nuvola Metacity theme
+
+2003-10-12  Christophe Merlet  <redfox@redfoxcenter.org>
+
+	* Amaranth/icons/scalable/mimetypes/Makefile.am:
+	  Add DESTDIR variable.
+
+2003-09-30 Christian Schaller <Uraeus@gnome.org>
+
+	* Added more icons to Amaranth
+	* Undo my premature icon name changes
+	* Try and get Wasp and Nuvola to work a little better
+	  with the Red Hat beta
+
+2003-09-26  Christian Schaller <Uraeus@gnome.org>
+
+	* Added more Amaranth icons, more symlinks
+	* Updates to Smooth engine files
+
+2003-09-25  Christian Schaller <Uraeus@gnome.org>
+
+	* Added new icons to Amaranth, started changing names for GNOME 2.4
+
+2003-09-24  Jakub Steiner <jimmac@ximian.com>
+
+	* COPYING: I just noticed gorilla was mentioned as LGPL for some
+	  odd reason.
+	
+2003-09-01  Metin Amiroff  <metin@karegen.com>
+
+	configure.in: Added "az" in ALL_LINGUAS.
+
+2003-08-30  Wang Jian  <lark@linux.net.cn>
+
+	* configure.in: Added "zh_CN" to ALL_LINGUAS.
+
+2003-08-26  Changwoo Ryu  <cwryu@debian.org>
+
+	* configure.in: Added "ko" to ALL_LINGUAS.
+
+2003-08-25  Ole Laursen  <olau@hardworking.dk>
+
+	* configure.in: Added "da" (Danish) to ALL_LINGUAS.
+
+2003-08-22 Christian Schaller <Uraeus@gnome.org>
+ 
+	* Added Amaranth to translation list
+	* Updated Smooth engine to latest from Andrew
+	* Fixed Wasp window managed maximize button, it is not aligned with
+	  close button
+	* Fix typo in Jakub's changelog entry ;)
+	* Add gtkrc patch from Andrew to Nuvola
+
+2003-08-22  Jakub Steiner <jimmac@ximian.com>
+
+	* configure.in
+	* Gorilla/icons/Makefile.am
+	* Gorilla/icons/index.theme.in
+	* Gorilla/icons/24x24/Makefile.am
+	* Gorilla/icons/24x24/apps/Makefile.am
+	* Gorilla/icons/24x24/apps/gnome-spinner-rest.png
+	* Gorilla/icons/24x24/apps/gnome-spinner.png: spinner for Gorilla
+	  (I'll investigate the possibility to make it svg as well)
+
+2003-08-20  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* configure.in: Added "no" to ALL_LINGUAS.
+
+2003-08-14 Christian Schaller <Uraeus@gnome.org>
+
+	* Misc bug fixes
+	* Most important being fixin of many of the emblem names
+	  to make them more consistant with the base theme
+	* tag for 0.3 release
+
+2003-08-13 Christian Schaller <Uraeus@gnome.org>
+	
+	* Added Industrial theme engine since Gorilla needs it
+	* This makes g-t-e conflict with ximian artwork, hopefully
+	  Ximian will start to ship Industrial as a standalone package so
+	  I can obsolete that
+
+2003-08-12 Christian Schaller <Uraeus@gnome.org>
+
+	* Adding preview of final Amaranth Metacity theme, looks pretty ok
+	  but fails to use GTK+ colours and has pixmap instead of SVG buttons
+
+2003-08-04 Christian Schaller <Uraeus@gnome.org>
+
+	* Moved Smooth into separate subdir
+	* Patch Smooth to latest version
+	* Added new Amaranth theme from ajgenius
+	* Fixed old commented out Gorilla app symlink
+	* Add new stock icons to Lush
+	* Add new stock icons to Nuvola
+	* Added a few app icons for Amaranth
+	* Added fake Nuvola gtk-1 from James Ogley
+
+2003-07-31 Christian Schaller <Uraeus@gnome.org>
+
+	* Added lots of new Amaranth icons from Michael Doches
+	* Added Gorilla inheritance fix from James Ogley
+	* Added .mo files to SPEC file fix from Håvard Wigtil
+
+2003-07-28  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/metacity-1/metacity-theme-1.xml: temporarily revert
+	  Uraeus' maximized state, since it draws a nasty light border.
+	  I'll see about a proper maximized state in future.
+
+2003-07-27 Christian Schaller <uraeus@gnome.org>
+	
+	* Update Smooth engine to use latest from smooth CVS
+	* Fix a couple of Nuvola icons
+	* Update Nuvola license to LGPL (thanks David!)
+	* Remove Galaxy and BlueSphere from package
+
+2003-07-23 Christian Schaller <Uraeus@gnome.org>
+
+	* Switch mazimize and restore icons in Wasp, they where wrong now
+
+2003-07-18  Christophe Merlet  <redfox@redfoxcenter.org>
+
+	* */*/*/*/Makefile.am: Add DESTDIR variable.
+
+2003-07-17  Christian Schaller <Uraeus@gnome.org>
+
+	* Re-integrate Amaranth into build
+	* Add more stock icons to Amaranth
+	* Change Lush description, sorry translators, but the
+	  current one sucked
+
+2003-07-16  Christian Schaller <Uraeus@gnome.org>
+	
+	* Add icons to Wasp
+	* Remove some icons commited with wrong name under Wasp
+	* Add a few emblems to Wasp
+
+2003-07-17  Takeshi AIHANA <aihana@gnome.gr.jp>
+
+	* configure.in: Added Japanese  "ja" into ALL_LINGUAS.
+
+2003-07-15  Danilo Šegan  <dsegan@gmx.net>
+
+	* configure.in: Added "sr" and "sr@Latn" to ALL_LINGUAS.
+
+2003-07-15  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/metacity-1/metacity-theme-1.xml: add button prelight
+	  states
+
+2003-07-14 Christian Schaller <Uraeus@gnome.org>
+	
+	* Change version to 0.3
+	* Add new and updated Nuvola icons from David Vignoni
+	* Fix many BlueSphere icons to use userspaceonuse instead 
+	  of objectboundingbox
+
+2003-07-13 Christian Schaller <Uraeus@gnome.org>
+
+	* Added updated and new icons to Nuvola from David
+	* Added symlinks to Nuvola for better coverage
+	* Added file manager, favorites, my-computer icon to Wasp
+	* Cleaned up symlink scripts in Makefiles
+	* Commented out Amaranth as it will not be part of 0.2
+	
+2003-07-11 Christian Schaller <Uraeus@gnome.org>
+
+	* Added Amaranth theme (alpha version)
+	* Add apps directory to Lush theme
+	* Add extra icon to Wasp theme
+
+2003-07-10 Christian Schaller <Uraeus@gnome.org>
+
+	* Added almost complete GNOME menu set to Nuvola
+	* Added abiword mime type to Lush and Nuvola
+	* Added Wasp multimedia menu icon
+	* Cleaned up Wasp apps menu icons somewhat
+
+2003-07-08 Christian Schaller <Uraeus@gnome.org>
+
+	* Removed mid-stop point info from most icons, 
+	  should reduce spew considerably, fix by
+	  Adam Hooper
+	* Traditional Chinese translation by baddog
+
+2003-07-07 Christian Schaller <Uraeus@gnome.org>
+	
+	* Add print-preview icon to Nuvola
+
+2003-07-02  Artur Flinta  <aflinta@cvs.gnome.org>
+
+	* configure.in: Added pl to ALL_LINGUAS
+
+2003-06-18  Fatih Demir <kabalak@gtranslator.org>
+
+	* configure.in: Added Turkish ("tr") to the languages' list.
+
+2003-06-18  Christophe Merlet  <redfox@redfoxcenter.org>
+
+	* configure.in: Added fr to ALL_LINGUAS.
+
+2003-06-13  Gil "Dolfin" Osher <dolfin@rpg.org.il>
+
+	* configure.in: Added he to ALL_LINGUAS.
+
+2003-06-11  Christian Schaller <Uraeus@gnome.org>
+
+	* Add new Evolution and printer icons to Nuvola
+	* Ugly kludge fix to Wasp wm theme
+	* Re-instate the symlinks for Gorilla
+	* Fix so Nuvola gnome-logo pops up in menu
+	* Removed Galaxy from build, nothing uses it anymore
+
+2003-06-10  Christian Schaller <Uraeus@gnome.org>
+
+	* Add many new stock and app icons to Wasp
+	* Change look of handle in Nuvola
+	* Add new camera emblem and new gnome logo to Nuvola
+	* Add .cvsignore files where missing
+	* A few other small tweaks I don't remember
+	
+2003-06-10  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/gtk-2.0/gtkrc: tweak a little to reflect engine change
+
+2003-06-09 Christian Schaller <Uraeus@gnome.org>
+
+	* Changed wm theme for Nuvola to a hybrid of old one and Gorilla
+	* Cleaned up Lush wm somewhat
+	* Other small fixes
+
+2003-06-09  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/gtk/gtkrc:
+	* Gorilla/gtk-2.0/gtkrc: use industrial gtk engine
+	
+2003-06-08 Christian Schaller <Uraeus@gnome.org>
+	
+	* Added more stock icons to Nuvola
+	* Added one more mimetype icon to Wasp
+
+2003-06-08  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/gtk-2.0/*.svg:
+	* Gorilla/icons/stock/*.svg: move to the icon theme
+
+2003-06-08  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/metacity-1/Makefile.am:
+	* Gorilla/Makefile.am:
+	* configure.in: automagick for metacity theme
+	
+2003-06-08  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/metacity-1/metacity-theme-1.xml
+	* Gorilla/metacity-1/wm-close.svg
+	* Gorilla/metacity-1/wm-max.svg
+	* Gorilla/metacity-1/wm-menu.svg
+	* Gorilla/metacity-1/wm-min.svg
+	* Gorilla/metacity-1/wm-restore.svg: adding Gorilla metacity theme. gotta 
+     add autotools files
+
+2003-06-05 Christian Schaller <Uraeus@gnome.org>
+	* Commited many updated icons from David Vignoni to Nuvola
+
+2003-06-05 Christian Schaller <Uraeus@gnome.org>
+	* Commited a couple of improved icons for Nuvola
+	* Commited some fixes to Lush metacity theme, still needin love
+
+2003-05-26  Pablo Gonzalo del Campo  <pablodc@bigfoot.com>
+
+        * configure.in: Added Spanish (es) to ALL_LINGUAS.
+
+2003-05-24  Duarte Loreto <happyguy_pt@hotmail.com>
+
+        * configure.in: Added Portuguese (pt) to ALL_LINGUAS.
+
+2003-05-16 Christian Schaller <Uraeus@gnome.org>
+	* Add stock icons to Lush theme
+	* Add Smooth-Lush gtk theme
+	* Add Lush-Galaxy metacity theme (alpha version)
+	* Add license file for Wasp icons
+	* Some minor bugfixes
+
+2003-05-14  Jakub Steiner <jimmac@ximian.com>
+
+   * Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-readme.svg:
+   * Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-patch.svg:
+   * Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-sql.svg:
+   * Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-copying.svg:
+   * Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-sh.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-kpresenter.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-kword.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-kspread.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-killustrator.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-vnd.ms-powerpoint.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-troff-man.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-backup.svg:
+	* Gorilla/icons/scalable/mimetypes/Makefile.am: more porting
+
+2003-05-12  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/icons/scalable/emblems/emblem-urgent.svg:
+	* Gorilla/icons/scalable/devices/gnome-dev-rw.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-lyx.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-shared-library.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-abiword.svg:
+	* Gorilla/icons/scalable/devices/Makefile.am: more porting
+
+2003-05-10 Christian Schaller <Uraeus@gnome.org>
+	* Add Wasp theme
+	* Fix small buglet in one Nuvolla emblem
+	* Add m4 dir and m4 macro for getting datadir for iconrc files
+	* Fix iconrc to be dynamic for BlueSphere and Nuvolla also
+
+2003-05-09  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-audio-x-midi.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-deb.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-makefile.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-install.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-css.svg:
+	* Gorilla/icons/scalable/mimetypes/Makefile.am:
+	  more porting
+
+2003-05-09  Abel Cheung  <maddog@linux.org.hk>
+
+	* configure.in: Added "cs" "zh_TW" to ALL_LINGUAS.
+
+2003-05-09  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/icons/scalable/apps/web-browser.svg:
+	* Gorilla/icons/scalable/apps/Makefile.am: add generic web
+	  browser icon
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-image-x-xcf.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-html.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-authors.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-java.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-vnd.ms-excel.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-gnucash.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-vnd.rn-realmedia.svg:
+	* Gorilla/icons/scalable/mimetypes/Makefile.am:
+	  more mimetype porting from older Gorilla
+
+	* Gorilla/icons/index.theme.in: make icons a little smaller
+	
+2003-05-07  Jordi Mallach  <jordi@sindominio.net>
+
+	* configure.in: Added "ca" to ALL_LINGUAS.
+
+2003-05-07  Christian Neumair  <chris@gnome-de.org>
+
+	* Nuvola/metacity-1/.cvsignore: Added.
+	* Galaxy/index.theme.in: Marked Name and Comment fields
+	for translation.
+	* Galaxy/index.theme: Removed.
+	* configure.in: Added "de" to ALL_LINGUAS.
+
+2003-05-07  Christian Rose  <menthos@menthos.com>
+
+	* configure.in: Added "sv" to ALL_LINGUAS.
+
+2003-05-03  Andrew Sobala  <aes@gnome.org>
+
+	* configure.in (AC_OUTPUT): stop duplicate creation of Nuvola/metacity-1/Makefile
+
+2003-05-01  Dennis Cranston <dennis_cranston at yahoo com>
+       * Galaxy/gtk-2.0/galaxy_theme_draw.c:  Prevent a division by zero crash.
+
+2003-04-29 Christian Schaller <uraeus@gnome.org>
+	* Added Nuvola metacity theme by Josselin Mouette
+	* Added some smaller SVG files for Nuvola by Adam Hooper 
+
+2003-05-01  Yanko Kaneti  <yaneti@declera.com>
+
+	* configure.in (AC_OUTPUT): create Nuvola/metacity-1/Makefile
+	* Makefile.am (NUVOLA_TAR_FILES): add the metacity wm theme files. 
+	* Nuvola/Makefile.am (SUBDIRS): actually use the metacity theme. 
+	* gnome-themes-estras.spec.in: use GTK_BINARY_VERSION
+
+2003-04-21  Alex Duggan  <aldug@gnome.org>
+
+	* TODO: Initial import
+	
+	* Makefile.am: s/${TAR}/tar to work around problem on rh9
+
+2003-04-18 Christian Schaller <uraues@gnome.org>
+	* Update Nuvola metatheme
+	* Adding Smooth Winther GTK theme to Nuvola
+	* Removed the use of Automake 1.4 as smooth need 1.6
+	* make tarballs don't work for me since ${TAR} gets translated into null
+	* the iconrc files includes fixed paths, they need to be made into iconrc.in files that get the path from the build, the iconrc files are in the BlueSphere/gtk-2.0 and Nuvola/gtk-2.0 dirs
+
+2003-04-17  Alex Duggan  <aldug@astrolinux.com>
+
+	* README: update with instructions for making releases
+	and building tarballs
+
+2003-04-17  Alex Duggan  <aldug@astrolinux.com>
+	
+	* .cvsignore:
+	add gnome-themes-extras.spec
+	
+	* BlueSphere/.cvsignore:
+	* BlueSphere/gtk-2.0/.cvsignore:
+	* BlueSphere/icons/.cvsignore:
+	* BlueSphere/icons/scalable/.cvsignore:
+	* BlueSphere/icons/scalable/stock/.cvsignore:
+	* BlueSphere/metacity-1/.cvsignore:
+	* Galaxy/.cvsignore:
+	* Galaxy/gtk-2.0/.cvsignore:
+	* Galaxy/metacity-1/.cvsignore:
+	* Lush/.cvsignore:
+	* Lush/icons/.cvsignore:
+	* Lush/icons/scalable/.cvsignore:
+	* Lush/icons/scalable/devices/.cvsignore:
+	* Lush/icons/scalable/emblems/.cvsignore:
+	* Lush/icons/scalable/filesystems/.cvsignore:
+	* Lush/icons/scalable/mimetypes/.cvsignore:
+	* Nuvola/.cvsignore:
+	* Nuvola/icons/.cvsignore:
+	* Nuvola/icons/scalable/.cvsignore:
+	* Nuvola/icons/scalable/apps/.cvsignore:
+	* Nuvola/icons/scalable/devices/.cvsignore:
+	* Nuvola/icons/scalable/emblems/.cvsignore:
+	* Nuvola/icons/scalable/filesystems/.cvsignore:
+	* Nuvola/icons/scalable/mimetypes/.cvsignore:
+	Add some new .cvsignore to shut cvs up
+
+2003-04-17  Alex Duggan  <aldug@astrolinux.com>
+
+	* Makefile.am: impliment a 'make tarballs' target which will
+	build tarballs of the themes.
+
+2003-04-17  Alex Duggan  <aldug@astrolinux.com>
+
+	* configure.in:
+	* Galaxy/Makefile.am:
+	move metacity theme from metacity to metacity-1
+	
+	* BlueSphere/icons/Makefile.am:
+	translate index.theme.in
+	
+2003-04-04  Yanko Kaneti <yaneti@declera.com>
+
+	* configure.in:
+	* gnome-themes-extras.spec.in (added): First spec. 
+	* Galaxy/gtk-2.0/Makefile.am: 
+	* Makefile.am: install the Galaxy theme in the correct place.
+
+2003-03-39  Christian F.K. Schaller <Uraeus@gnome.org>
+	* Added Lush, BlueSphere and Galaxy themes
+
+2003-03-22  Christian F.K. Schaller <Uraeus@gnome.org>
+
+	* Added Nuvola icon theme
+
+2003-03-21  Jakub Steiner <jimmac@ximian.com>
+
+	* emblems/emblem-video.svg -> emblem-multimedia: 
+	* emblems/emblem-seal.svg -> emblem-distinguished: rename
+	* emblem-danger.svg:
+	* emblem-ohno.svg:
+	* emblem-important.svg:
+	* emblem-generic.svg:
+	* emblem-cool.svg: replace the default
+
+   * gnome-fs-network.svg:
+   * gnome-fs-server.svg: make 3d
+
+2003-03-06  Jakub Steiner <jimmac@ximian.com>
+
+	* COPYING: it should have a license
+	* AUTHORS: ..and authors
+
+2003-02-05  Jakub Steiner <jimmac@ximian.com>
+
+	* my-computer.svg: perfectioning the shadow, fixed a stroke type
+	  (there's a rendering bug in librsvg if the closed path uses
+	  'square' brush.
+
+2003-02-05  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/icons/scalable/mimetypes/Makefile.am: stuffit symlink
+	* my-computer.svg: drop the gnome foot, too complex. color,
+     bounding box.
+
+2003-02-03  Jakub Steiner <jimmac@ximian.com>
+
+	* gnome-mime-application-x-rpm.svg:
+	* gnome-mime-application-x-deb.svg: temporary, need correct
+	 perspective
+	* gnome-terminal.svg:
+	* my-computer.svg: finally I managed to actually do something
+	  new. Scaling old stuff isn't much fun.
+	* Gorilla/icons/scalable/mimetypes/Makefile.am: add symlink for
+	  oggs
+	
+2003-01-24  Jakub Steiner <jimmac@ximian.com>
+
+	* *.svg: s/px/pt/ - be resolution independent. I hope Nautilus
+	  will scale the icons appropriately on different DPI settings
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-msword.svg:
+	  MS word files
+
+2003-01-24  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-font.svg,
+	  gnome-mime-application-x-font.svg,
+	  Makefile.am: rename, add some symlinks, force symlinks
+
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* Gorilla/icons/scalable/mimetypes/Makefile.am:
+	* po/POTFILES.in:
+	Make distcheck fixes
+	
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* Gorilla/icons/scalable/mimetypes/Makefile.am:
+	create a gnome-mime-font-ttf.svg symlink to gnome-mime-font.svg
+	
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* Gorilla/icons/.cvsignore: 
+	* Gorilla/.cvsignore:
+	Add index.theme
+
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* Gorilla/icons/index.theme: remove from cvs
+
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* po/.cvsignore: initial commit
+	
+2003-01-24  Jakub Steiner <jimmac * ximian * com>
+
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-vnd.sun.xml.writer.svg,
+	gnome-mime-application-vnd.sun.xml.impress.svg,
+	gnome-mime-application-vnd.sun.xml.calc.svg,
+	gnome-mime-application-vnd.sun.xml.draw.svg, 
+	Makefile.am: StarOffice icons
+
+	* Gorilla/icons/scalable/filesystems/Makefile.am: add missing
+	.icon files
+
+	* Gorilla/icons/scalable/emblems/emblem-seal.svg,
+	Makefile.am: the 'seal of approval' emblem
+
+	* ~mimetypes/gnome-mime-application-x-gnome-app-info.svg,
+	Makefile.am: .desktop files
+
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* Gorilla/.cvsignore:
+	* Gorilla/gtk/.cvsignore:
+	* Gorilla/gtk-2.0/.cvsignore:
+	* Gorilla/icons/.cvsignore:
+	* Gorilla/icons/scalable/.cvsignore:
+	* Gorilla/icons/scalable/devices/.cvsignore:
+	* Gorilla/icons/scalable/emblems/.cvsignore:
+	* Gorilla/icons/scalable/filesystems/.cvsignore:
+	* Gorilla/icons/scalable/mimetypes/.cvsignore:
+	Initial commit of these
+
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* .cvsignore: Add a .cvsignore
+
+2003-01-23  Jakub Steiner <jimmac * ximian * com>
+
+	* Gorilla/gtk-2.0/Makefile.am: add missing stock_no.svg
+	* Gorilla/gtk/gtkrc,
+	Gorilla/gtk-2.0/gtkrc: use mist instead (temporarily)
+
+	* configure.in,
+	Gorilla/Makefile.am,
+	Gorilla/gtk/Makefile.am: add gtk1 theme 
+
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+	
+	* Initial autotools work

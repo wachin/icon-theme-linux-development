@@ -1,0 +1,121 @@
+# Amaranth vector icon theme
+
+
+[Icon Theme]
+Name=Amaranth
+Name[az]=Amaranth
+Name[bg]=Амарант
+Name[ca]=Amaranth
+Name[cs]=Amaranth
+Name[da]=Amaranth
+Name[de]=Amaranth
+Name[el]=Amaranth
+Name[en_CA]=Amaranth
+Name[en_GB]=Amaranth
+Name[es]=Amaranto
+Name[fi]=Amaranth
+Name[gl]=Amaranto
+Name[hu]=Amaránt
+Name[it]=Amaranto
+Name[ja]="アマランス"
+Name[ko]=Amaranth
+Name[lt]=Amaranth
+Name[ne]=एमेरेन्थ
+Name[nl]=Amarant
+Name[no]=Amaranth
+Name[pa]=ਅਮਰਥ
+Name[pl]=Amarant
+Name[pt]=Amaranth
+Name[pt_BR]=Amaranth
+Name[ru]=Амарант
+Name[sk]=Amaranth
+Name[sq]=Amarante
+Name[sr]=Амарант
+Name[sr@Latn]=Amarant
+Name[sv]=Amarant
+Name[uk]=Амарант
+Name[vi]=Hoa không tàn
+Name[zh_CN]=紫红
+Comment=Silver Vector Theme
+Comment[az]=Gümüş Vektor Örtüyü
+Comment[bg]=Сребърен векторен изглед
+Comment[ca]=Tema de vectors platejat
+Comment[cs]=Stříbrné vektorové téma
+Comment[da]=Sølvvektortema
+Comment[de]=Silbernes Vektorthema
+Comment[el]=Θέμα Silver Vector
+Comment[en_CA]=Silver Vector Theme
+Comment[en_GB]=Silver Vector Theme
+Comment[es]=Tema vectorial plateado
+Comment[fi]=Hopeinen vektoriteema
+Comment[gl]=Tema vectorial prateado
+Comment[hu]=Ezüst vektor téma
+Comment[it]=Tema vettoriale argentato
+Comment[ja]=Silver Vector のテーマ
+Comment[ko]=은빛 벡터 테마
+Comment[lt]=Sidabrinė vektorinė tema
+Comment[ne]=चाँदि भेक्टर विषयवस्तु
+Comment[nl]=Zilver vectorthema
+Comment[no]=Sølv vektortema
+Comment[pa]=ਸਿਲਵਰ ਵੈਕਟਰ ਥੀਮ
+Comment[pl]=Motyw srebrnego wektora
+Comment[pt]=Tema Vector Prateado
+Comment[pt_BR]=Tema Vetor Prateado
+Comment[ru]=Серебристая векторная тема
+Comment[sk]=Strieborná vektorová téma
+Comment[sq]=Temë vektoriale e argjentuar
+Comment[sr]=Сребрна векторска тема
+Comment[sr@Latn]=Srebrna vektorska tema
+Comment[sv]=Vektortemat Silver
+Comment[uk]=Срібляста векторна темая
+Comment[vi]=Sắn thái véctơ bạc
+Comment[zh_CN]=银色顶点主题
+Inherits=gnome,crystalsvg
+Directories=scalable/apps,scalable/filesystems,scalable/mimetypes,scalable/emblems,scalable/devices,scalable/stock
+Example=gnome-theme-preview.svg
+
+[scalable/actions]
+MinSize=1
+Size=48
+MaxSize=256
+Context=Actions
+Type=scalable
+
+[scalable/apps]
+MinSize=1
+Size=48
+MaxSize=256
+Context=Applications
+Type=scalable
+
+[scalable/devices]
+MinSize=1
+Size=48
+MaxSize=256
+Context=Devices
+Type=scalable
+
+[scalable/emblems]
+#this is a bug 102677, should be 24
+Size=72
+Context=Emblems
+Type=Scalable
+
+[scalable/filesystems]
+MinSize=1
+Size=48
+MaxSize=128
+Context=FileSystems
+Type=Scalable
+
+[scalable/mimetypes]
+MinSize=1
+Size=48
+MaxSize=128
+Context=MimeTypes
+Type=Scalable
+
+[scalable/stock]
+Size=48
+Context=Stock
+Type=Scalable

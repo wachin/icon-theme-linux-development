@@ -1,0 +1,31 @@
+
+PARA CAMBIAR EN LAS APLICACIONES KDE 4
+Después que lo ha instalado, editar el siguiente archivo:
+
+poner en la terminal:
+
+gedit .kde/share/config/kdeglobals
+
+buscar el lugar donde dice:
+
+[Icons]
+Theme=oxygen
+
+y (ejemplo)cambiarlo por:
+
+[Icons]
+Theme=nuvola-dark-panel
+
+Borrar el cache del tema de iconos para que se cree el nuevo con el tema elegido. Hay que hacerlo en dos rutas:
+
+/home/wachin/.kde/cache-nombre-de-la-PC/icon-cache.kcache
+
+y
+
+/home/wachin/.cache/icon-cache.kcache
+
+Nota: "wachin" es el nombre del mi usuario de mi HOME, usted debe buscar en el suyo
+
+cierre la aplicación KDE que esté usando y vuelvala a abrir (ejemplo dolphin4) y verá que se cambia el tema
+
+

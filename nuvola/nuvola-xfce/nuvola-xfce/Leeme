@@ -1,0 +1,141 @@
+
+Nuvola XFCE Dark Version
+
+Fork de nuvola-icon-theme de David Vignoni https://www.opendesktop.org/p/1120902 Descargado de: https://packages.ubuntu.com/xenial/nuvola-icon-theme
+Modificado por Washington Indacochea Delgado para el Proyecto Facilitar el Software Libre en el Ecuador
+https://facilitarelsoftwarelibre.blogspot.com/
+wachin.id@gmail.com
+Ecuador
+21 de Junio de 2018
+
+
+CAMBIOS QUE HE HECHO A ESTE TEMA PARA QUE FUNCIONE BIEN EN XFCE
+
+Shutter
+lo modigiqué para que se vea bien en el panel negro, tomé el shutter instala en el tema negro de ubuntu:
+/usr/share/icons/ubuntu-mono-dark/scalable/apps/shutter-panel.svg
+y lo añadí a:
+/16x16/apps/shutter-panel.png
+/22x22/apps/shutter-panel.png
+/24x24/apps/shutter-panel.png
+/32x32/apps/shutter-panel.png
+/48x48/apps/shutter-panel.png
+
+Además modifiqué el editable SVG que shutter instala en: 
+/usr/share/icons/hicolor/scalable/apps/shutter.svg
+
+y lo modifiqué para hacerlo más blanco y lo puse en:
+
+/128x128/apps/shutter.png
+/16x16/apps/shutter.png
+/22x22/apps/shutter.png
+/24x24/apps/shutter.png
+/256x256/apps/shutter.png
+/32x32/apps/shutter.png
+/48x48/apps/shutter.png
+/64x64/apps/shutter.png
+ 
+
+--------------------------------------------------------------------------------
+
+TAMBIÉN HICE LOS SIGUIENTES GRANDES CAMBIOS
+
+Al tema base nuvola descargado de los paquetes de Ubuntu 16.04 https://packages.ubuntu.com/xenial/nuvola-icon-theme
+
+Le he añadido los iconos del sistema de Ubuntu Studio para que también se vea bien allí (además de que se ve bien en Xubuntu)
+
+https://packages.ubuntu.com/xenial/all/ubuntustudio-icon-theme/filelist
+
+/usr/share/icons/ubuntustudio/apps/48/hdspmixer.png
+/usr/share/icons/ubuntustudio/apps/48/hexter.png
+/usr/share/icons/ubuntustudio/index.theme
+/usr/share/icons/ubuntustudio/panel/22/ubuntustudio-logo-menu.png
+/usr/share/icons/ubuntustudio/places/128/distributor-logo.svg
+/usr/share/icons/ubuntustudio/places/24/distributor-logo.png
+/usr/share/icons/ubuntustudio/places/48/distributor-logo.png
+/usr/share/icons/ubuntustudio/places/64/distributor-logo.png
+
+estos los añadí a las respectivas carpetas en Nuvola XFCE Version
+
+
+Y también hice los siguientes cambios y añadidos faltantes
+
+CAMBIOS
+En los siguientes directorios
+
+16x16
+22x22
+32x32
+48x48
+64x64
+128x128
+256x256
+scalable
+
+he reemplazado:
+
+De nuv-icon-theme:
+https://github.com/Nitrux/luv-icon-theme/blob/master/Luv/apps/32/inkscape.svg
+le puse este icono en vez del de inkcape que tenía
+
+De breeze-extra-kde
+https://github.com/varlesh/breeze-extra/blob/master/breeze-extra-kde/apps/48/gimp.svg
+
+Del mismo nuvola, copié este:
+/128x128/places/folder-blue.png
+y pequé aquí:
+/128x128/apps/system-file-manager.png
+esto para que aparezca este icono en otros administradores de archivos
+
+De Nautilus, puesto que el paquete: "nautilus-data" ha instalado este icono:
+/usr/share/icons/hicolor/512x512/apps/org.gnome.Nautilus.png
+le he puesto en apps con el nombre:
+org.gnome.Nautilus.png
+esto para que el icono de Nautilus aparezca
+
+
+ICONOS DE GRUPOS Y FILTRO
+Dolphin4 iconos de grupo y filtro no están, le pongo los de oxygen:
+
+file:///usr/share/icons/oxygen/base/32x32/actions/view-filter.png
+file:///usr/share/icons/oxygen/base/32x32/actions/view-group.png
+file:///usr/share/icons/oxygen/base/22x22/actions/view-filter.png
+file:///usr/share/icons/oxygen/base/22x22/actions/view-group.png
+file:///usr/share/icons/oxygen/base/16x16/actions/view-filter.png
+file:///usr/share/icons/oxygen/base/16x16/actions/view-group.png
+
+en:
+
+/32x32/actions/view-filter.png
+/32x32/actions/view-group.png
+/22x22/actions/view-filter.png
+/22x22/actions/view-group.png
+/16x16/actions/view-filter.png
+/16x16/actions/view-group.png
+
+
+DOLPHIN COLOR FOLDER
+Además añado los siguientes iconos en:
+
+/places/folder-black.png
+/places/folder-brown.png
+/places/folder-magenta.png
+
+Esto que también en esté disponible esos tres colores faltantes, para poder ponerles esos colores a las carpetas:
+Colores en las carpetas (Folder Color) de dolphin4 en UbuntuStudio 16.04, 17.04
+https://facilitarelsoftwarelibre.blogspot.com/2016/08/colores-en-las-carpetas-folder-color-de.html
+
+
+AÑADO TAMBIÉN ESTOS ICONOS FALTANTES
+yo usé la carpeta principal de nuvola y le puse los iconos que les faltaban a esas carpetas:
+/places/folder-activities.png
+/places/folder-bookmark.png
+/places/folder-development.png
+/places/folder-temp.png
+/places/mail-folder-sent.png
+
+
+
+
+
+

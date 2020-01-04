@@ -1,0 +1,137 @@
+# Gorilla vector icon theme
+# (c) 2002-2003 Jakub 'Jimmac' Steiner <jimmac@ximian.com>
+
+[Icon Theme]
+Name=Gorilla
+Name[az]=Gorilla
+Name[bg]=Горила
+Name[ca]=Gorilla
+Name[cs]=Gorila
+Name[da]=Gorilla
+Name[de]=Gorilla
+Name[el]=Gorilla
+Name[en_CA]=Gorilla
+Name[en_GB]=Gorilla
+Name[es]=Gorilla
+Name[fi]=Gorilla
+Name[fr]=Gorilla
+Name[gl]=Gorila
+Name[he]=גורילה
+Name[hu]=Gorilla
+Name[it]=Gorilla
+Name[ja]="ゴリラ"
+Name[ko]=Gorilla
+Name[lt]=Gorilla
+Name[mk]=Gorilla
+Name[ne]=गोरिल्ला
+Name[nl]=Gorilla
+Name[no]=Gorilla
+Name[pa]=ਗੋਰੀਲਾ
+Name[pl]=Gorilla
+Name[pt]=Gorila
+Name[pt_BR]=Gorila
+Name[ru]=Горилла
+Name[sk]=Gorila
+Name[sq]=Gorilla
+Name[sr]=Горила
+Name[sr@Latn]=Gorila
+Name[sv]=Gorilla
+Name[tr]=Goril
+Name[uk]=Горила
+Name[vi]=Gô-ri-la
+Name[zh_CN]=大猩猩
+Name[zh_TW]=Gorilla
+Comment=Vector Theme
+Comment[az]=Vektor Örtüyü
+Comment[bg]=Векторен изглед
+Comment[ca]=Tema Vector
+Comment[cs]=Vektorové téma
+Comment[da]=Vektortema
+Comment[de]=Vektorthema
+Comment[el]=Θέμα Vector
+Comment[en_CA]=Vector Theme
+Comment[en_GB]=Vector Theme
+Comment[es]=Tema vectorial
+Comment[fi]=Vektoriteema
+Comment[fr]=Thème Vector
+Comment[gl]=Tema vectorial
+Comment[he]=ערכת נושא וקטורית
+Comment[hu]=Vektor téma
+Comment[it]=Tema vettoriale
+Comment[ja]=ベクトル形式のテーマ
+Comment[ko]=벡터 테마
+Comment[lt]=Vektorinė tema
+Comment[mk]=Векторска Тема
+Comment[ne]=भेक्टर विषयवस्तु
+Comment[nl]=Vectorthema
+Comment[no]=Vektortema
+Comment[pa]=ਵੈਕਟਰ ਥੀਮ
+Comment[pl]=Motyw wektorowy
+Comment[pt]=Tema Vector
+Comment[pt_BR]=Tema Vetor
+Comment[ru]=Векторная тема
+Comment[sk]=Vektorová téma
+Comment[sq]=Temë vektoriale
+Comment[sr]=Вектор тема
+Comment[sr@Latn]=Vektor tema
+Comment[sv]=Vektortema
+Comment[tr]=Vector teması
+Comment[uk]=Векторна тема
+Comment[vi]=Sắn thái véctơ
+Comment[zh_CN]=顶点主题
+Comment[zh_TW]=向量圖案佈景主題
+Inherits=gnome,hicolor,crystalsvg
+Directories=scalable/apps,scalable/filesystems,scalable/mimetypes,scalable/emblems,scalable/devices,24x24/apps,scalable/stock
+Example=gnome-theme-preview.svg
+
+[scalable/actions]
+MinSize=1
+Size=54
+MaxSize=256
+Context=Actions
+Type=scalable
+
+[scalable/apps]
+MinSize=1
+Size=54
+MaxSize=256
+Context=Applications
+Type=scalable
+
+[scalable/devices]
+MinSize=1
+Size=54
+MaxSize=256
+Context=Devices
+Type=scalable
+
+[scalable/emblems]
+#this is a bug 102677, should be 24
+Size=72
+Context=Emblems
+Type=Scalable
+
+[scalable/filesystems]
+MinSize=1
+Size=54
+MaxSize=128
+Context=FileSystems
+Type=Scalable
+
+[scalable/mimetypes]
+MinSize=1
+Size=54
+MaxSize=128
+Context=MimeTypes
+Type=Scalable
+
+[24x24/apps]
+Size=24
+Context=Applications
+Type=Scalable
+
+[scalable/stock]
+Size=48
+Context=Stock
+Type=Scalable
+

@@ -1,0 +1,152 @@
+
+nuvola-dark-panel
+Fork de nuvola icon theme de David Vignoni https://www.opendesktop.org/p/1120902
+lo descargué de aquí: https://packages.ubuntu.com/xenial/kde-icons-nuvola
+Modificado por Washington Indacochea Delgado
+
+Lo que he hecho yo es actualizar algunos iconos que no estaban presentes (abajo están todos los cambios que hice)
+
+
+PARA CAMBIAR EN LAS APLICACIONES KDE
+Después que lo ha instalado, editar el siguiente archivo:
+
+poner en la terminal:
+
+gedit .kde/share/config/kdeglobals
+
+buscar el lugar donde dice:
+
+[Icons]
+Theme=oxygen
+
+y (ejemplo)cambiarlo por:
+
+[Icons]
+Theme=nuvola-dark-panel
+
+Borrar el cache del tema de iconos para que se cree el nuevo con el tema elegido. Hay que hacerlo en dos rutas:
+
+/home/wachin/.kde/cache-nombre-de-la-PC/icon-cache.kcache
+
+y
+
+/home/wachin/.cache/icon-cache.kcache
+
+Nota: "wachin" es el nombre del mi usuario de mi HOME, usted debe buscar en el suyo
+
+cierre la aplicación KDE que esté usando y vuelvala a abrir (ejemplo dolphin4) y verá que se cambia el tema
+
+
+Adaptado de:
+https://solydxk.com/evolvere-icon-theme-update/
+https://bbs.archlinux.org/viewtopic.php?id=121653
+
+
+CAMBIOS QUE HE HECHO A ESTE TEMA PARA QUE FUNCIONE BIEN EN UBUNTU STUDIO
+
+
+Este tema de icono es nuvola descargado de los paquetes de Ubuntu Studio 17.04
+
+Le he añadido los iconos del sistema de Ubuntu Studio
+
+y voy a cambiar algunos de los iconos que no me gustan
+
+CAMBIOS
+He reemplazado en estos folders de los iconos de nuvola
+/home/wachin/Dropbox/UbuntuManuales/icons/nuvola-ubuntustudio-dark-panel/
+16x16
+22x22
+32x32
+48x48
+64x64
+128x128
+256x256
+scalable.svg
+
+He reemplazado 
+
+De nuvola:
+.icons/Luv/apps/32/inkscape.svg
+Nota: A este icono yo le añadi un borde blanco para que se vea bien en Numix
+
+De breeze-extra-kde
+/home/wachin/Dropbox/UbuntuManuales/icons/nuvola-cambios-que-he-hecho/icon-themes/breeze-extra-kde/apps/48/gimp.svg
+Nota: pero no funiona, no se porqué
+
+Del mismo nuvola
+/home/wachin/Dropbox/UbuntuManuales/icons/nuvola-ubuntustudio-dark-panel/128x128/places/folder-blue.png
+por:
+/home/wachin/Dropbox/UbuntuManuales/icons/nuvola-ubuntustudio-dark-panel/128x128/apps/system-file-manager.png
+
+De nautilus-data
+/usr/share/icons/hicolor/512x512/apps/org.gnome.Nautilus.png
+
+a cada una de las carpetas arriba mencionadas de nuvola, 
+en apps con el nombre:
+org.gnome.Nautilus.png
+
+
+De thunar-data
+
+/usr/share/icons/hicolor/128x128/apps/Thunar.png
+/usr/share/icons/hicolor/16x16/apps/Thunar.png
+/usr/share/icons/hicolor/16x16/stock/navigation/stock_folder-copy.png
+/usr/share/icons/hicolor/16x16/stock/navigation/stock_folder-move.png
+/usr/share/icons/hicolor/16x16/stock/navigation/stock_thunar-shortcuts.png
+/usr/share/icons/hicolor/24x24/apps/Thunar.png
+/usr/share/icons/hicolor/24x24/stock/navigation/stock_folder-copy.png
+/usr/share/icons/hicolor/24x24/stock/navigation/stock_folder-move.png
+/usr/share/icons/hicolor/48x48/apps/Thunar.png
+/usr/share/icons/hicolor/64x64/apps/Thunar.png
+/usr/share/icons/hicolor/scalable/apps/Thunar.svg
+
+/usr/share/icons/hicolor/128x128/apps/Thunar.png
+
+a 
+/home/wachin/Dropbox/UbuntuManuales/icons/nuvola-ubuntustudio-dark-panel/128x128/apps/Thunar.png
+
+
+Shutter
+
+lo modigiqué para que se vea bien en el panel negro de numix
+/home/wachin/Dropbox/UbuntuManuales/icons/nuvola-cambios-que-he-hecho/icon-themes/hicolor/scalable/apps/shutter.svg
+
+lo pegué en todas las carpetas arriba mencionadas
+
+
+Gimp
+Cambié estos iconos
+/usr/share/gimp/2.0/images/gimp-logo.png
+/usr/share/gimp/2.0/images/wilber.png
+
+Con este modificado de Breeze-extra-kde
+/home/wachin/Dropbox/UbuntuManuales/icons/nuvola-ubuntustudio-dark-panel/128x128/apps/gimp.png
+
+
+Dolphin4 iconos de grupo y filtro no están, le pongo los de oxygen:
+
+file:///usr/share/icons/oxygen/base/32x32/actions/view-filter.png
+file:///usr/share/icons/oxygen/base/32x32/actions/view-group.png
+file:///usr/share/icons/oxygen/base/22x22/actions/view-filter.png
+file:///usr/share/icons/oxygen/base/22x22/actions/view-group.png
+file:///usr/share/icons/oxygen/base/16x16/actions/view-filter.png
+file:///usr/share/icons/oxygen/base/16x16/actions/view-group.png
+
+en:
+
+file:///home/wachin/Dropbox/UbuntuManuales/icons/nuvola-ubuntustudio-dark-panel/32x32/actions/view-filter.png
+file:///home/wachin/Dropbox/UbuntuManuales/icons/nuvola-ubuntustudio-dark-panel/32x32/actions/view-group.png
+file:///home/wachin/Dropbox/UbuntuManuales/icons/nuvola-ubuntustudio-dark-panel/22x22/actions/view-filter.png
+file:///home/wachin/Dropbox/UbuntuManuales/icons/nuvola-ubuntustudio-dark-panel/22x22/actions/view-group.png
+file:///home/wachin/Dropbox/UbuntuManuales/icons/nuvola-ubuntustudio-dark-panel/16x16/actions/view-filter.png
+file:///home/wachin/Dropbox/UbuntuManuales/icons/nuvola-ubuntustudio-dark-panel/16x16/actions/view-group.png
+
+
+
+
+
+
+
+
+
+ 

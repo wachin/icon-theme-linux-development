@@ -1,0 +1,9 @@
+
+Este es azúl por defecto en Nuvola para la vista global en el administrador de archivos Dolphin, si yo quiero que cambie debo cambiarlo por otro color
+
+/nuvola-orange/64x64/mimetypes/inode-directory.png
+
+el del administrador de archivos para el panel de los Gestores de ventana es este:
+
+/nuvola-orange/48x48/apps/system-file-manager.png
+

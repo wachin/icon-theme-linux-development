@@ -1,0 +1,40 @@
+[Icon Theme]
+Name=Brisa oscuro iceWM (iconos blancos) volumen blanco
+Name[es]=Brisa oscuro iceWM (iconos blancos) volumen blanco
+
+Comment=Breeze dark iceWM (white icons) volume white
+Comment[es]=Brisa oscuro iceWM (iconos blancos) volumen blanco
+
+DisplayDepth=32
+
+Inherits=breeze-dark
+
+Example=folder
+
+########## Directories
+
+Directories=status/22
+
+
+# Iconos para el volumen del programa pnmixer en iceWM
+# Es una modificación de los iconos de status del volumen
+# http://ec.archive.ubuntu.com/ubuntu/pool/universe/b/breeze-icons/breeze-icon-theme_5.18.0-0ubuntu1_i386.deb
+
+
+[status/22]
+Size=22
+Context=Status
+Type=Scalable
+MinSize=22
+MaxSize=32
+
+#	│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│
+#	│             Proyecto Resucitar PC de bajos recursos con iceWM          │
+#	│                                                    RisenPC                               │
+#	│             script por Washington Indacochea Delgado (Wachín)          │
+#	│                    E-Mail: wachin.id@gmail.com en Ecuador                 │
+#	│               http://facilitarelsoftwarelibre.blogspot.com/                       │
+#	│                 Licencia Pública General de GNU version 2                │    
+#	│         En español: http://es.tldp.org/Otros/gples/gples.html               │
+#	│         en inglés: https://www.gnu.org/licenses/gpl-2.0.html                 │
+#	│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│

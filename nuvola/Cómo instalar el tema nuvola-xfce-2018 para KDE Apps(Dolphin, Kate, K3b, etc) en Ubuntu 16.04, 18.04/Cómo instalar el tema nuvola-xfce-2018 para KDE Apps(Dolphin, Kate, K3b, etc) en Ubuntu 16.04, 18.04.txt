@@ -1,0 +1,56 @@
+
+Cómo instalar el tema nuvola-xfce-2018 para KDE Apps(Dolphin, Kate, K3b, etc) en Ubuntu 16.04, 18.04
+
+Descarga 
+
+nuvola-xfce-2018 que contiene dos temas de iconos:
+
+nuvola-xfce-dark iconos blancos para panel oscuro
+
+y:
+
+nuvola-xfce-light iconos negros para panel blanco
+
+y peguelo a:
+
+/usr/share/icons/
+
+hagalo como root así:
+
+sudo thunar /usr/share/icons/ ~/
+
+se le abrirán dos instancias en la ultima vea donde tiene el tema de iconos y copielo y  luego pequelo en la otra, cierre todo y luego:
+
+edita el archivo:
+
+gedit .kde/share/config/kdeglobals
+
+busque la siguiente linea:
+
+[Icons]
+Theme=Breeze
+
+(puede ayudarse con "Ctrl + F" para buscar la frase "Theme=Breeze"), cambiela por
+
+[Icons]
+Theme=nuvola-xfce-dark
+
+Borrar el cache del tema de iconos para que se cree el nuevo con el tema elegido
+
+poner en la terminal:
+
+rm .kde/cache*/icon-cache.kcache
+
+y
+
+rm .cache/icon-cache.kcache
+
+cierre la aplicación KDE que esté usando y vuelvala a abrir (ejemplo dolphin4) y verá que se cambia el tema. 
+
+CÓMO HACER QUE SE VEAN BIEN LOS ICONOS EN LA BARRA DE HERRAMIENTAS
+Para que se vean bien los iconos del volumen, el internet del tema escogido es necesario reiniciar la computadora, no basta sólo con reiniciar Fluxbox
+
+
+Adaptado de:
+https://solydxk.com/evolvere-icon-theme-update/
+https://bbs.archlinux.org/viewtopic.php?id=121653

@@ -1,0 +1,19 @@
+
+
+Suru++ 20 [Officially bug-free and 11 DEs-compatible] - www.opendesktop.org
+https://www.opendesktop.org/p/1238162/
+
+
+* Install the package `git`;
+* Clone the repository :
+
+sudo git clone https://github.com/gusbemacbe/suru-plus.git /usr/share/icons/Suru++
+
+* Set the icon theme:
+
+gsettings set org.gnome.desktop.interface icon-theme "Suru++"
+
+* And do you want to keep updating?
+
+cd /usr/share/icons/Suru++
+sudo git pull

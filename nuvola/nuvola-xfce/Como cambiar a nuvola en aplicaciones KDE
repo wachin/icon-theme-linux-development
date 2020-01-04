@@ -1,0 +1,46 @@
+
+PARA CAMBIAR EN LAS APLICACIONES KDE
+Después que lo ha instalado, editar el siguiente archivo:
+
+poner en la terminal:
+
+gedit .kde/share/config/kdeglobals
+
+buscar el lugar donde dice:
+
+[Icons]
+Theme=oxygen
+
+y (ejemplo)cambiarlo por:
+
+[Icons]
+Theme=nuvola-xfce-light
+
+
+Nota: Si no aparece:
+
+[Icons]
+Theme=oxygen
+
+copie las dos líneas copie estas dos líneas con el nombre del tema de iconos que va a usar:
+
+[Icons]
+Theme=nuvola-xfce-light
+
+y péguelas allí.
+
+
+
+Borrar el cache del tema de iconos para que se cree el nuevo con el tema elegido. Hay que hacerlo en dos rutas:
+
+.kde/cache-nombre-de-la-PC/icon-cache.kcache
+.cache/icon-cache.kcache
+
+Comando para hacerlo desde la terminal en Ubuntu 16.04, 18.04
+
+rm -r ~/.kde/cache-*/icon-cache.kcache
+rm -r ~/.cache/icon-cache.kcache
+
+cierre la aplicación KDE que esté usando y vuelvala a abrir (ejemplo dolphin4) y verá que se cambia el tema
+
+

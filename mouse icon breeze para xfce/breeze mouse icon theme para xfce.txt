@@ -1,0 +1,14 @@
+
+
+Myriam Schweingruber <myriam@kde.org>
+14 dic. (hace 1 día)
+
+para Kubuntu 
+
+Hi Washington,
+
+Sorry for the delay in the answer. You should check if you have the packages for the breeze-icons, as Plasma 5 and all applications depending on it use that icon set.
+
+Hope that helps.
+
+Regards, Myriam 

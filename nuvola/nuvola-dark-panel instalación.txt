@@ -1,0 +1,6 @@
+
+
+git clone https://github.com/wachin/nuvola-dark-panel
+cd nuvola-dark-panel
+tar xvzf nuvola-dark-panel.tar.gz 
+sudo mv nuvola-dark-panel /usr/share/icons/

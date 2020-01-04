@@ -1,0 +1,123 @@
+AC_PREREQ(2.52)
+AC_INIT(gnome-themes-extras, 0.9.0)
+
+AM_CONFIG_HEADER(config.h)
+
+ACLOCAL_FLAGS="-I m4"
+AC_SUBST(ACLOCAL_AMFLAGS, $ACLOCAL_FLAGS)
+
+AM_INIT_AUTOMAKE([1.9 tar-pax])
+
+# Honor aclocal flags
+ACLOCAL="$ACLOCAL $ACLOCAL_FLAGS"
+
+
+GETTEXT_PACKAGE=gnome-themes-extras
+AC_SUBST(GETTEXT_PACKAGE)
+
+AM_MAINTAINER_MODE
+
+AC_PROG_INTLTOOL([0.23])
+AC_PROG_CC
+AC_PROG_INSTALL
+
+# No static please
+AM_DISABLE_STATIC
+
+# Initialize libtool
+AM_PROG_LIBTOOL
+
+PKG_CHECK_MODULES(GTK_ENGINES_2,
+		  gtk-engines-2 >= 2.6.0,,
+		  AC_MSG_ERROR([gtk-engines-2 is required to compile gnome-themes-extras]))
+
+# Checks for header files.
+AC_HEADER_STDC
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+
+AS_AC_EXPAND(DATADIR, $datadir)
+
+# Checks for endianness (needed by GdkRgb).
+AC_C_BIGENDIAN
+
+# Checks for library functions.
+AC_TYPE_SIGNAL
+AC_FUNC_MMAP
+AC_FUNC_ALLOCA
+AC_CHECK_FUNCS(setenv putenv)
+
+ALL_LINGUAS="az bg ca cs da de el en_CA en_GB es fi fr gl he hr hu it ja ko lt ne nl no pa pl pt pt_BR ru rw sk sq sr sr@Latn sv tr uk zh_CN zh_TW"
+AM_GLIB_GNU_GETTEXT
+
+AC_OUTPUT([
+Makefile
+gnome-themes-extras.spec
+Amaranth/Makefile
+Amaranth/gtk-2.0/Makefile
+Amaranth/gtk-2.0/iconrc
+Amaranth/metacity-1/Makefile
+Amaranth/icons/Makefile
+Amaranth/icons/scalable/Makefile
+Amaranth/icons/scalable/apps/Makefile
+Amaranth/icons/scalable/devices/Makefile
+Amaranth/icons/scalable/emblems/Makefile
+Amaranth/icons/scalable/filesystems/Makefile
+Amaranth/icons/scalable/mimetypes/Makefile
+Amaranth/icons/scalable/stock/Makefile
+Gorilla/Makefile
+Gorilla/gtk/Makefile
+Gorilla/gtk-2.0/Makefile
+Gorilla/icons/Makefile
+Gorilla/icons/scalable/Makefile
+Gorilla/icons/scalable/apps/Makefile
+Gorilla/icons/scalable/devices/Makefile
+Gorilla/icons/scalable/emblems/Makefile
+Gorilla/icons/scalable/filesystems/Makefile
+Gorilla/icons/scalable/mimetypes/Makefile
+Gorilla/icons/scalable/stock/Makefile
+Gorilla/icons/24x24/Makefile
+Gorilla/icons/24x24/apps/Makefile
+Gorilla/metacity-1/Makefile
+Nuvola/Makefile
+Nuvola/gtk-2.0/Makefile
+Nuvola/gtk-2.0/iconrc
+Nuvola/gtk-1.0/Makefile
+Nuvola/metacity-1/Makefile
+Nuvola/icons/Makefile
+Nuvola/icons/scalable/Makefile
+Nuvola/icons/scalable/apps/Makefile
+Nuvola/icons/scalable/devices/Makefile
+Nuvola/icons/scalable/emblems/Makefile
+Nuvola/icons/scalable/filesystems/Makefile
+Nuvola/icons/scalable/mimetypes/Makefile
+Nuvola/icons/scalable/stock/Makefile
+Nuvola-old/Makefile
+Nuvola-old/metacity-1/Makefile
+Lush/Makefile
+Lush/gtk-2.0/Makefile
+Lush/gtk-2.0/iconrc
+Lush/metacity-1/Makefile
+Lush/icons/Makefile
+Lush/icons/scalable/Makefile
+Lush/icons/scalable/apps/Makefile
+Lush/icons/scalable/devices/Makefile
+Lush/icons/scalable/emblems/Makefile
+Lush/icons/scalable/filesystems/Makefile
+Lush/icons/scalable/mimetypes/Makefile
+Lush/icons/scalable/stock/Makefile
+Wasp/Makefile
+Wasp/gtk-2.0/Makefile
+Wasp/gtk-2.0/iconrc
+Wasp/metacity-1/Makefile
+Wasp/icons/Makefile
+Wasp/icons/scalable/Makefile
+Wasp/icons/scalable/apps/Makefile
+Wasp/icons/scalable/devices/Makefile
+Wasp/icons/scalable/emblems/Makefile
+Wasp/icons/scalable/filesystems/Makefile
+Wasp/icons/scalable/mimetypes/Makefile
+Wasp/icons/scalable/stock/Makefile
+po/Makefile.in
+])

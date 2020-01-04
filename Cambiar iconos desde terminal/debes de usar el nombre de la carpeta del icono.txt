@@ -1,0 +1,20 @@
+
+
+ejemplo:
+
+/usr/share/icons/breeze-dark
+
+debo de usar en kdeglobals
+
+breeze-dark
+
+no como está dentro del archivo:
+
+/usr/share/icons/breeze-dark/index.theme
+
+[Icon Theme]
+Name=Breeze Dark
+Name[ar]=نسيم داكن
+Name[ast]=Breeze Dark 
+
+Pero en el Scheme si se usa así, pero estoy aberiguando cómo hacerlo funcionar porque todavía el shceme no me funciona
